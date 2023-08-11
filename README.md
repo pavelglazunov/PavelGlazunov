@@ -1,7 +1,5 @@
-![bg](https://storage.mircs.ru/mircs/2021/11/6608.jpg)
 ### Hi there 👋
 
-<!--
 **pavelglazunov/PavelGlazunov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -14,4 +12,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
