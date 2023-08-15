@@ -20,7 +20,7 @@ def create_bg_image():
 
     draw.text((100, 2100), text, fill="white", font=font)
 
-    image.save(f"bg_with_time.jpg")
+    image.save(f"bg_with_time_{switcher}.jpg")
 
 
 switcher = 1
@@ -33,10 +33,10 @@ while True:
     create_bg_image()
 
     with open("README.md", "w", encoding="utf-8") as file:
-        file.write("![bg](bg_with_time.jpg)")
+        file.write(f"![bg](bg_with_time_{switcher}.jpg)")
     # time.sleep(60 - datetime.datetime.now().second)
     # os.remove(f"bg_with_time_{switcher}.jpg")
-    # switcher = (switcher + 1) % 2
+    switcher = (switcher + 1) % 2
     # input("ff")
     time.sleep(1)
     os.system("git status")
