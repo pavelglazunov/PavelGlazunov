@@ -40,10 +40,19 @@ while True:
     # input("ff")
     time.sleep(1)
     os.system("git status")
+    print("==========================================")
     os.system(f"git add .")
+    print("==========================================")
+
     os.system("git status")
+    print("==========================================")
+
     os.system(f"git commit -m \"time\"")
+    print("==========================================")
+
     os.system("git status")
+    print("==========================================")
+
     os.system("git push -u origin main")
 
     time.sleep(60)
