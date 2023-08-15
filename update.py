@@ -30,10 +30,13 @@ switcher = 1
 
 # sys.exit()
 while True:
+    create_bg_image()
+
+    with open("README.md", "w", encoding="utf-8") as file:
+        file.write("![bg](bg_with_time.jpg)")
     # time.sleep(60 - datetime.datetime.now().second)
     # os.remove(f"bg_with_time_{switcher}.jpg")
     # switcher = (switcher + 1) % 2
-    create_bg_image()
     # input("ff")
     time.sleep(1)
     os.system("git status")
