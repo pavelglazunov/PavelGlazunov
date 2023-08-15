@@ -1,4 +1,5 @@
 import datetime
+import sys
 import time
 import os
 
@@ -23,13 +24,11 @@ def create_bg_image():
 
 
 while True:
-    # with open("README.md", "a", encoding="utf-8") as file:
-    create_bg_image()
-#         file.write(f"""
-# [bg](https://github.com/pavelglazunov/PavelGlazunov/blob/main/bg_with_time.jpg)
-# """)
+    time.sleep(60 - datetime.datetime.now().second)
 
-    os.system("git add ./bg_with_time.jpg")
+    create_bg_image()
+
+    os.system("git add .")
     os.system(f"git commit -m \"{datetime.datetime.now()}")
     os.system("git push -u origin main")
 
