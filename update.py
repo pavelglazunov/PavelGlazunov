@@ -20,16 +20,24 @@ def create_bg_image():
 
     draw.text((100, 2100), text, fill="white", font=font)
 
-    image.save("bg_with_time.jpg")
+    image.save(f"bg_with_time_{switcher}.jpg")
 
 
+switcher = 1
+# for i in range(10):
+#     print(switcher)
+
+
+# sys.exit()
 while True:
-    time.sleep(60 - datetime.datetime.now().second)
-
+    # time.sleep(60 - datetime.datetime.now().second)
+    # os.remove(f"bg_with_time_{switcher}.jpg")
+    switcher = (switcher + 1) % 2
     create_bg_image()
 
-    os.system("git add .")
-    os.system(f"git commit -m \"{datetime.datetime.now()}\"")
+    time.sleep(6)
+    os.system(f"git add .")
+    os.system(f"git commit -m \"time\"")
     os.system("git push -u origin main")
 
     time.sleep(60)
