@@ -1,1 +1,1 @@
-![bg](bg_with_time_0.jpg)
+![bg](bg_with_time_1.jpg)
