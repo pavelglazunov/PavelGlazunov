@@ -32,10 +32,10 @@ switcher = 1
 while True:
     # time.sleep(60 - datetime.datetime.now().second)
     # os.remove(f"bg_with_time_{switcher}.jpg")
-    switcher = (switcher + 1) % 2
+    # switcher = (switcher + 1) % 2
     create_bg_image()
 
-    time.sleep(6)
+    time.sleep(1)
     os.system(f"git add .")
     os.system(f"git commit -m \"time\"")
     os.system("git push -u origin main")
