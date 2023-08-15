@@ -20,7 +20,7 @@ def create_bg_image():
 
     draw.text((100, 2100), text, fill="white", font=font)
 
-    image.save(f"bg_with_time_{switcher}.jpg")
+    image.save(f"bg_with_time.jpg")
 
 
 switcher = 1
