@@ -29,7 +29,7 @@ while True:
     create_bg_image()
 
     os.system("git add .")
-    os.system(f"git commit -m \"{datetime.datetime.now()}")
+    os.system(f"git commit -m \"{datetime.datetime.now()}\"")
     os.system("git push -u origin main")
 
     time.sleep(60)
