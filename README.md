@@ -4,8 +4,10 @@
 
 ![Snake animation](https://github.com/pavelglazunov/pavelglazunov/blob/output/github-user-contribution.svg)
 
-<h2 align="center">(っ◔◡◔)っ ♥ About ♥</h2>
+<h2 align="center">(っ◔◡◔)っ    &nbsp;&nbsp;&nbsp; About</h2>
 <p align="center">A programmer is a machine that turns coffee into code? Hmm, I agree!</p>
+<p align="center"><img src="https://github.com/pavelglazunov/pavelglazunov/blob/output/coffee.svg?raw=true" alt="Image description" width="300" height="200"></p>
+
 
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pavelglazunov&theme=moonlight)
