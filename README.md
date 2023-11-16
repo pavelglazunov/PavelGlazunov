@@ -29,9 +29,21 @@
 <br />
 <br />
 
-
-<h1 align="center">▁ ▂ ▄ ▅ ▆ ▇ █  🆂🅺🅸🅻🆂   █ ▇ ▆ ▅ ▄ ▂ ▁</h1>
+<h1 align="center">▁ ▂ ▄ ▅ ▆ ▇ █  🆂🅺🅸🅻🆂  █ ▇ ▆ ▅ ▄ ▂ ▁</h1>
 <br />
 <div align="center">
     <img alt="icons" src="https://skillicons.dev/icons?i=py,go,js,vue,flask,linux,vscode,git,github,figma,cloudflare,stackoverflow,html,css,discord">
 </div>
+<br />
+<br />
+<br />
+
+<h1 align="center">▁ ▂ ▄ ▅ ▆ ▇ █  🅼🅰🅸🅽 🅿🆁🅾🅹🅴🅲🆃🆂  █ ▇ ▆ ▅ ▄ ▂ ▁</h1>
+<br />
+
+<div align="center">
+  <a href="https://github.com/pavelglazunov/SomethinK"><img alt="Readme Card" src="https://github-readme-stats.vercel.app/api/pin/?username=pavelglazunov&repo=SomethinK&theme=dark&hide_border=false)"></a>
+  <a href="https://github.com/pavelglazunov/Chess-Farm-Bot"><img alt="Readme Card" src="https://github-readme-stats.vercel.app/api/pin/?username=pavelglazunov&repo=Chess-Farm-Bot&theme=dark&hide_border=false)"></a>
+</div>
+
+
