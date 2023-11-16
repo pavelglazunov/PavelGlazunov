@@ -1,4 +1,4 @@
-![bg](newBg.jpg)
+![bg](bg_with_time_new.jpg)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=40&pause=1000&color=AD9EFF&vCenter=true&random=false&width=500&height=53&lines=Pavel+Glazunov+;Welcome+to+my+GitHub!)](https://git.io/typing-svg)
 
