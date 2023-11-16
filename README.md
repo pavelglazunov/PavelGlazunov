@@ -1,6 +1,6 @@
 ![bg](newBg.jpg)
 
-![Snake animation](https://github.com/pavelglazunov/pavelglazunov/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/pavelglazunov/pavelglazunov/blob/output/github-user-contribution.svg)
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pavelglazunov&theme=moonlight)
 
