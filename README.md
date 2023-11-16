@@ -1,3 +1,8 @@
 ![bg](newBg.jpg)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pavelglazunov&theme=moonlight)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=33&pause=1000&color=AD9EFF&random=false&width=435&lines=Pavel+Glazunov)](https://git.io/typing-svg)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pavelglazunov&theme=moonlight)
+
+[//]: # (![]&#40;https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pavelglazunov&theme=moonlight&#41;)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pavelglazunov&theme=moonlight)
