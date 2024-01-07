@@ -49,6 +49,7 @@
   <a href="https://github.com/pavelglazunov/SomethinK"><img alt="Readme Card" src="https://github-readme-stats.vercel.app/api/pin/?username=pavelglazunov&repo=SomethinK&theme=dark&hide_border=false)"></a>
   <a href="https://github.com/pavelglazunov/MyWebsite"><img alt="Readme Card" src="https://github-readme-stats.vercel.app/api/pin/?username=pavelglazunov&repo=MyWebsite&theme=dark&hide_border=false)"></a>
   <a href="https://github.com/pavelglazunov/Chess-Farm-Bot"><img alt="Readme Card" src="https://github-readme-stats.vercel.app/api/pin/?username=pavelglazunov&repo=Chess-Farm-Bot&theme=dark&hide_border=false)"></a>
+  <a href="https://github.com/pavelglazunov/-LIB-autoTests"><img alt="Readme Card" src="https://github-readme-stats.vercel.app/api/pin/?username=pavelglazunov&repo=-LIB-autoTests&theme=dark&hide_border=false)"></a>
 </div>
 
 
