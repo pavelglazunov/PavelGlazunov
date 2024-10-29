@@ -1,59 +1,30 @@
-import datetime
-import sys
-import time
-import os
-
+from flask import Flask, send_file
 from PIL import Image, ImageDraw, ImageFont
 
+import datetime
 
-def create_bg_image():
-    image = Image.open("bg.jpg")
-    size = image.size
+app = Flask(__name__)
+
+
+@app.route("/time")
+def get_image_with_current_time():
+    image = Image.open("main_background.jpg")
     draw = ImageDraw.Draw(image)
 
-    font_path = r"C:\Users\HP\AppData\Local\Microsoft\Windows\Fonts\SourceCodePro-Bold.ttf"
-    font_size = 500
+    font_path = r"/root/GitHubUpdater/SourceCodePro-Bold.ttf"
+    font_size = 200
 
     font = ImageFont.truetype(font_path, size=font_size)
 
     text = str(datetime.datetime.now().strftime("%H:%M"))
 
-    draw.text((100, 2100), text, fill="white", font=font)
+    draw.text((50, 820), text, fill="white", font=font)
 
-    image.save(f"bg_with_time_{switcher}.jpg")
+    image.save(f"result.jpg")
 
-
-switcher = 1
-# for i in range(10):
-#     print(switcher)
+    return send_file("result.jpg")
 
 
-# sys.exit()
-while True:
-    create_bg_image()
+# app.run(host="127.0.0.1", port=8080)
+app.run(host="94.198.216.152", port=50000)
 
-    with open("README.md", "w", encoding="utf-8") as file:
-        file.write(f"![bg](bg_with_time_{switcher}.jpg)")
-    # time.sleep(60 - datetime.datetime.now().second)
-    # os.remove(f"bg_with_time_{switcher}.jpg")
-    switcher = (switcher + 1) % 2
-    # input("ff")
-    time.sleep(1)
-    os.system("git status")
-    print("==========================================")
-    os.system(f"git add .")
-    print("==========================================")
-
-    os.system("git status")
-    print("==========================================")
-
-    os.system(f"git commit -m \"time\"")
-    print("==========================================")
-
-    os.system("git status")
-    print("==========================================")
-
-    os.system("git push -u origin main")
-
-    time.sleep(60)
-#
