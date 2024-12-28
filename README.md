@@ -33,7 +33,7 @@
 <br />
 <br />
 
-<h1 align="center">▁ ▂ ▄ ▅ ▆ ▇ █  🆂🅺🅸🅻🆂  █ ▇ ▆ ▅ ▄ ▂ ▁</h1>
+<h1 align="center">▁ ▂ ▄ ▅ ▆ ▇ █  🆂🅺🅸🅻🅻🆂  █ ▇ ▆ ▅ ▄ ▂ ▁</h1>
 <br />
 <div align="center">
     <img alt="icons" src="https://skillicons.dev/icons?i=py,go,js,vue,flask,linux,vscode,git,github,figma,cloudflare,stackoverflow,html,css,discord">
